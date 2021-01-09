@@ -1,0 +1,36 @@
+.card{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    background-color: #343a40;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search button{
+    margin: 0.5em 0.3em;
+    border-radius: 50%;
+    border: none;
+    height: 2.2em;
+    width: 2.3em;
+    outline: none;
+}
+.search button:hover{
+    background: lightgreen ;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.search-bar{
+    border: none;
+    outline: none;
+    padding: 0.28em;
+    border-radius: 18px;
+    width: calc(100% - 100px);
+}
