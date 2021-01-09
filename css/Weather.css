@@ -14,18 +14,18 @@
     align-items: center;
     justify-content: center;
 }
-.search button{
+button{
     margin: 0.5em 0.3em;
     border-radius: 50%;
     border: none;
     height: 2.2em;
     width: 2.3em;
     outline: none;
+    transition: 0.2s ease-in-out;
 }
-.search button:hover{
+button:hover{
     background: lightgreen ;
     cursor: pointer;
-    transition: 0.2s ease-in-out;
 }
 .search-bar{
     border: none;
@@ -33,4 +33,21 @@
     padding: 0.28em;
     border-radius: 18px;
     width: calc(100% - 100px);
+}
+h1.temp{
+    margin:0;
+    margin-bottom: 0.4em;
+}
+.weather.loading{
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+}
+.weather.loading::after{
+    visibility: visible;
+    content: "Loading...";
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 140px;
 }
