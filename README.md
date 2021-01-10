@@ -7,7 +7,7 @@ Users would not need to open multiple browser tabs or application to different t
 # Features
 General - Have used bootstrap, so every page has a navigation bar that shows which page you are on. <br>
 Weather :https://somebodylol123.github.io/ID_Assignment-2/WeatherMain.html <br>
-- Allows user to search for any country or city and displays information about the weather such as
+- Allows user to search for any country or city and displays information about the weather such as <br>
 temperature, weather(Cloudy,Heavy rain, etc), Humidity and wind speed.
 # Credits
 Navbar : https://www.w3schools.com/howto/howto_js_navbar_sticky.asp <br>
