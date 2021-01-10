@@ -1,7 +1,8 @@
 const APIController = (function() {
     
-    const clientId = 'ADD YOUR CLIENT ID';
-    const clientSecret = 'ADD YOUR CLIENT SECRET';
+    const clientId = '109e4dab5d874069b5cb036a92ea208c';
+    const clientSecret = '811f8f05c6504771934a064502114c42';
+    var redirect_uri = '';
 
     // private methods
     const _getToken = async () => {
